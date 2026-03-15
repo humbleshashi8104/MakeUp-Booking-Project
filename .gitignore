@@ -1,0 +1,13 @@
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Local secrets (do not push)
+.env
+.env.*
+*.local
+LOCAL-SECRETS.md
+**/LOCAL-SECRETS.md
