@@ -1,15 +1,14 @@
 # MakeUp-Booking-Project
 
-Status till 15th march 
+Status till 24th march 
 
 Commited :
 
-feat: implement authentication with BCrypt and JWT While implementing 2 APIs
+feat: implement authentication with BCrypt and JWT and booking system logic.
 
 Includes:
-- User registration
-- Password hashing
-- Login API
-- JWT token generation
-- JWT validation filter
-- Protected endpoints
+Authentication System ✔
+Service Catalog ✔
+Slot System ✔
+Booking System ✔
+No Double Booking ✔
