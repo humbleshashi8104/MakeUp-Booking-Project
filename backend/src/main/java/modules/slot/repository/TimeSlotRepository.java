@@ -12,7 +12,7 @@ import java.util.Optional;
 public interface TimeSlotRepository extends JpaRepository<TimeSlot, Long> {
 
     @Override
-    @Lock(LockModeType.PESSIMISTIC_WRITE)
+    @Lock(LockModeType.PESSIMISTIC_WRITE) // Lock row until transaction completes
     Optional<TimeSlot> findById(Long id);
 
     List<TimeSlot> findByDate(LocalDate date);

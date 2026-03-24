@@ -25,10 +25,12 @@ public class Booking {
     @ManyToOne
     private TimeSlot slot;
 
-    private String status;
+    private String status; // PENDING, CONFIRMED, CANCELLED
 
     private LocalDateTime createdAt;
 
+    private LocalDateTime expiresAt;
+    
     public Booking() {}
 
     public Long getId() { return id; }
@@ -47,4 +49,7 @@ public class Booking {
 
     public LocalDateTime getCreatedAt() { return createdAt; }
     public void setCreatedAt(LocalDateTime createdAt) { this.createdAt = createdAt; }
+
+    public LocalDateTime getExpiresAt() { return expiresAt; }
+    public void setExpiresAt(LocalDateTime expiresAt) { this.expiresAt = expiresAt; }
 }
