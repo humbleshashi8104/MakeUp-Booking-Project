@@ -34,6 +34,7 @@ build/
 
 ### Local secrets (do not commit) ###
 application-local.properties
+application.properties
 .env
 .env.*
 *.local
