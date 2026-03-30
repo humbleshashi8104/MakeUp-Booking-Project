@@ -16,3 +16,7 @@ spring.jpa.properties.hibernate.format_sql=true
 
 # Use a long random string in production (e.g. 256+ bits). Set JWT_SECRET env var.
 jwt.secret=your_jwt_secret_min_32_chars_for_HS256
+
+# Razorpay: create keys in the Razorpay Dashboard (API Keys). Use test keys for development.
+razorpay.key=your_razorpay_key_id
+razorpay.secret=your_razorpay_key_secret

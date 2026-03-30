@@ -11,3 +11,6 @@
 *.local
 LOCAL-SECRETS.md
 **/LOCAL-SECRETS.md
+
+# Spring Boot — copy from application.properties.example; never commit real values
+backend/backend/src/main/resources/application.properties
